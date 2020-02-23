@@ -8,6 +8,14 @@ body{
     
     }
 
+    .main-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        max-width: 1440px;
+    }
+
 
 .grid-container {
     /*max-width: 1440px;*/
