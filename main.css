@@ -8,7 +8,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, ul, li, p {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 body {
@@ -91,18 +91,28 @@ body {
 
 
 .grid-right ul {
-    color: hsl(204, 43%, 93%);
+    color: rgb(146, 231, 228);
     list-style-type: none;
-    
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
 
 }
 
 .grid-left > h3, h4, p, button {
     color: white;
 }
+.grid-left h3 
+{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
 .grid-right > h3 {
     color: white;
 }
+
 button {
     background-color: rgb(191, 223, 50);
     width: 100%;
