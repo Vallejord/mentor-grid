@@ -83,19 +83,30 @@ body {
     border-bottom-right-radius: 10px;
     background-color: rgb(74, 190, 189);
 }
-ul {
+
+.grid-right h3{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.grid-right ul {
+    color: hsl(204, 43%, 93%);
     list-style-type: none;
+    
+
 }
 
 .grid-left > h3, h4, p, button {
     color: white;
 }
-grid-right > h3 {
+.grid-right > h3 {
     color: white;
 }
 button {
     background-color: rgb(191, 223, 50);
     width: 100%;
+    border: none;
 }
 
 .month {
