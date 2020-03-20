@@ -108,8 +108,25 @@ body {
     margin-bottom: 1.2rem;
 }
 
+.dolar {
+    display: flex;
+}
 
-.grid-right > h3 {
+.dolar .month {
+    font-size: 1rem;
+    margin: 5px;
+
+}
+
+
+.grid-left p{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+   .grid-right > h3 {
     color: white;
 }
 
