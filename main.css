@@ -134,6 +134,11 @@ button {
     background-color: rgb(191, 223, 50);
     width: 100%;
     border: none;
+    font-size: 1.1rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 8px 30px -8px  hsl(179, 97%, 12%);
 }
 
 .month {
