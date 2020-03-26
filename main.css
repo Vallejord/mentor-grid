@@ -150,7 +150,7 @@ button:hover {
     color:  rgb(116, 214, 223);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 475px) {
     .grid-container  {
         display: flex;
         flex-direction: column;
