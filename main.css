@@ -156,7 +156,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-content: center;
-        
+        height: initial;
         font-size: 1.6rem;
     }
     
