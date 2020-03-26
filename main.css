@@ -156,13 +156,10 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-content: center;
-        justify-content: initial;
+        
         font-size: 1.6rem;
     }
     
-    .grid-header {
-        margin-top: 4rem;
-    }
     
     .grid-container  {
         display: flex;
