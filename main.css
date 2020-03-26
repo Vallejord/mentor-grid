@@ -149,3 +149,22 @@ button:hover {
     display: inline;
     color:  rgb(116, 214, 223);
 }
+
+@media only screen and (max-width: 400px) {
+    .grid-container  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .grid-right {
+        border-bottom-right-radius: 0px;
+        
+    }
+
+    .grid-left {
+        
+        border-bottom-left-radius: 0px;
+    }
+
+}
